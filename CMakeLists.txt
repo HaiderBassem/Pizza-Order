@@ -68,3 +68,4 @@ install(TARGETS PizzaOrder
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(PizzaOrder)
 endif()
+install(TARGETS PizzaOrder DESTINATION bin)

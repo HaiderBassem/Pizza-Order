@@ -3,6 +3,7 @@
 //#include<cctype>
 #include<QMessageBox>
 #include<QStringList>
+#include<QGraphicsOpacityEffect>
 MainWindow::MainWindow(float toppingsPrice, float crustPrice, float sizePrice, QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -126,6 +127,10 @@ void MainWindow::DefaultValues()
     ui->rbMedium->setChecked(true);
     ui->rbThinCrust->setChecked(true);
     ui->rbEatIn->setChecked(true);
+    ui->lblSize->setText("Medium");
+    ui->lblCrustType->setText("Thin");
+    ui->lblToppings->setText("Nothing");
+    ui->lblWhereToEat->setText("Eat In");
 }
 
 

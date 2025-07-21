@@ -27,6 +27,7 @@ Available at: https://github.com/GTRONICK/QSS/blob/master/MaterialDark.qss
 */
 QMainWindow {
 	background-color:#1e1d23;
+	opacity:90;
 }
 QDialog {
 	background-color:#1e1d23;
@@ -1220,6 +1221,9 @@ QSlider::sub-page:vertical {
     </property>
     <property name="text">
      <string>Close</string>
+    </property>
+    <property name="shortcut">
+     <string>Ctrl+Q</string>
     </property>
    </widget>
   </widget>
